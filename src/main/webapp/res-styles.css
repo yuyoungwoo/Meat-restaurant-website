@@ -1,0 +1,115 @@
+.body-res {
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+    width: auto;
+    height: auto;
+}
+    .calendar {
+      width: 300px;
+      text-align: center;
+    }
+
+    .calendar-header {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;
+    }
+
+    .calendar-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .calendar-table th,
+    .calendar-table td {
+      padding: 10px;
+      border: 1px solid #ccc;
+    }
+
+    .calendar-table td:hover {
+      cursor: pointer;
+      background-color: #f2f2f2;
+    }
+
+    .selected-date {
+      background-color: #4CAF50;
+      color: #fff;
+    }
+
+    .selected-time {
+      background-color: #4CAF50;
+      color: #fff;
+    }
+
+    .time-slots {
+      margin-top: 20px;
+      display: flex;
+      justify-content: space-around;
+    }
+    
+    .time-slot:active {
+        background-color: #4CAF50;
+        color: #fff;
+    }
+
+    .time-slot {
+        padding: 10px;
+        border: 1px solid #ccc;
+        cursor: pointer;
+    }
+
+    .time-slot.selected {
+      background-color: #4CAF50;
+      color: #fff;
+    }
+
+    .time-slot:hover {
+      background-color: #f2f2f2;
+    }
+
+    /* Added styles for text color on Saturdays and Sundays */
+    .calendar-table th:nth-child(7) {
+      color: blue; /* Saturday - 파란색 */
+    }
+
+    .calendar-table th:nth-child(1) {
+      color: red; /* Sunday - 빨간색 */
+    }
+
+    .reservation-info {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    ul, li {
+        list-style: none;
+    }
+    
+    .flex {
+        display: flex;
+    }
+    
+    a {
+        border-radius: 0%;
+        text-decoration-line: none;
+    }
+    
+    .num-count {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .rad {
+        border: 1px solid black;
+        border-radius: 25px;
+        padding: 5px 10px;
+        margin: 5px 5px;
+    }
+    
+    .li-st li {
+        padding: 0 10px;
+    }

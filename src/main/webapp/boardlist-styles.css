@@ -1,0 +1,35 @@
+#boardList {
+    width: 930px;
+    margin: auto;
+    border-collapse: collapse;
+    margin-top: 20px
+    }
+
+    #boardList th, #boardList td {
+    padding: 8px;
+    text-align: center;
+    font-family: 'ChosunGs';
+    }
+
+    #boardList th {
+      border-bottom: 2px solid black;
+}
+
+    #boardList td {
+      border-bottom: 1px solid #ccc;
+}
+    #boardList tbody > tr:hover {
+      background-color: #ECEFF7;
+}
+	.important-board:hover {
+		background-color: red;
+	}
+
+	.board-nav-type {
+		display: flex;
+		justify-content: center;
+		margin: 50px 0;
+		background-color: #ccc;
+		padding: 10px;
+		height: 100%;
+	}

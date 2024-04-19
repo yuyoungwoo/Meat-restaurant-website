@@ -1,0 +1,171 @@
+/* 공통 내용 */
+/* 폰트 */
+@font-face {
+    font-family: 'ChosunGs';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ChosunGs.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.chosungs {
+    font-family: 'ChosunGs' !important;
+}
+.w-tabs {
+    position: relative;
+}
+a {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* section-19 */
+
+.section-19 {
+    height: auto;
+    background-color: #111;
+    justify-content: center;
+    padding-bottom: 252px;
+    display: flex;
+}
+.section-19-main {
+    width: 1000px;
+    text-align: left;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: block;
+}
+.section-19-main-title {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 0;
+    display: flex;
+}
+.section-19-left1 {
+    font-size: 30px;
+    line-height: 50px;
+    color: white;
+}
+.section-19-left2 {
+    display: flex;
+}
+.section-19-right {
+    color: white;
+    font-family: Noto Sans KR, sans-serif;
+    font-size: 14px;
+}
+.section-19-main-block {
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding-top: 0;
+    display: flex;
+}
+.section-19-main-block-main {
+    width: 330px;
+    height: 447px;
+    background-position: 50%;
+    margin-top: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: flex-end;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    display: flex;
+}
+.section-19-main-block-text1 {
+    color: #fff;
+    margin-bottom: 10px;
+    font-family: Noto Sans KR, sans-serif;
+    font-size: 30px;
+    line-height: 40px;
+}
+.section-19-main-block-text2 {
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+    display: block;
+}
+
+/* section-19 */
+
+/* 목구멍 역사 윗부분 */
+
+.main-top-content {
+	height: 60vh;
+	padding-top: 50px;
+}
+.main-top-content-text {
+	height: 30%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 50px;
+    padding-top: 0;
+    display: flex;
+}
+.main-top-content-text1 {
+	text-align: center;
+    font-size: 60px;
+    line-height: 80px;
+    font-family: 'ChosunGs';
+}
+.main-top-content-text2 {
+	font-size: 18px;
+    line-height: 28px;
+    font-family: 'ChosunGs';
+}
+.main-top-content-image {
+	height: 70%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
+}
+.main-top-content-image > div {
+	width: 100%;
+    height: 70%;
+    background-image: url(https://assets-global.website-files.com/64e5c2af07963c6e3ddbaf3a/64e5c2b107963c6e3ddbbd0f_icon%E1%84%86%E1%85%A9%E1%86%A8%E1%84%80%E1%85%AE%E1%84%86%E1%85%A5%E1%86%BC%E1%84%8B%E1%85%A7%E1%86%A8%E1%84%89%E1%85%A1.svg);
+    background-size: contain;
+    margin-top: 18px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.main-mid-banner {
+	height: 25vh;
+	background-image: url(https://assets-global.website-files.com/64e5c2af07963c6e3ddbaf3a/64e5c2b107963c6e3ddbbd45_img%E1%84%86%E1%85%A9%E1%86%A8%E1%84%80%E1%85%AE%E1%84%86%E1%85%A5%E1%86%BC%E1%84%8B%E1%85%A7%E1%86%A8%E1%84%89%E1%85%A1.png);
+	background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: -50px;
+}
+
+.main-mid-content {
+	height: auto;
+    background-color: #111111;
+    justify-content: center;
+    padding-bottom: 252px;
+    display: flex;
+}
+.main-mid-content-center {
+	width: 1000px;
+    text-align: left;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: block;
+}
+.main-mid-content-toptext {
+	flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 0;
+    display: flex;
+}
